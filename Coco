@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Print HTTP response headers
+    cout << "Content-Type: text/html\n\n";
+
+    // Print HTML content
+    cout << "<!DOCTYPE html>";
+    cout << "<html>";
+    cout << "<head><title>Meta Legend</title></head>";
+    cout << "<body>";
+    cout << "<h1>Meta Legend hit hard</h1>";
+    cout << "<p>This message is brought to you by a C++ program!</p>";
+    cout << "</body>";
+    cout << "</html>";
+
+    return 0;
+}
